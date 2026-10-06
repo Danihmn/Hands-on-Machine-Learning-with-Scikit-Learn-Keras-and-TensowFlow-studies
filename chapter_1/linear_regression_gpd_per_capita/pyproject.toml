@@ -1,0 +1,23 @@
+[project]
+name = "linear-regression-gpd-per-capita"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Danihmn", email = "daniel.bezerra.mult@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "jupyterlab>=4.6.4",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+    "scikit-learn>=1.9.1",
+]
+
+[project.scripts]
+linear-regression-gpd-per-capita = "linear_regression_gpd_per_capita:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
