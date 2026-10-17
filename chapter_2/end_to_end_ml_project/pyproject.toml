@@ -1,0 +1,14 @@
+[project]
+name = "end-to-end-ml-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [{ name = "Danihmn", email = "daniel.bezerra.mult@gmail.com" }]
+requires-python = ">=3.14"
+dependencies = [
+    "jupyterlab>=4.6.4",
+    "pandas>=3.0.6",
+]
+
+[project.scripts]
+end-to-end-ml-project = "end_to_end_ml_project:main"
